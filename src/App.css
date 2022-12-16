@@ -1,0 +1,284 @@
+
+.Header{
+    background-color: #5ba4a4;
+    height: 9rem;
+}
+.Header img{
+    width: 100%;
+    height: 9rem;
+}
+.ShowJobs{
+    display: grid;
+    margin:3rem;
+}
+.show-data{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 1rem;
+    margin:1rem;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 1rem 1.2rem 1.6rem 0 #d7e9ec;
+    border-radius: 8px;
+}
+.main{
+    display: flex;
+}
+.main .logo{
+    margin-right: 2rem;
+}
+.main .img-logo{
+    width:6rem;
+    height:6rem;
+}
+.main-text{
+    display: grid;
+    cursor: pointer;
+    
+}
+.text-end{
+    display: flex;
+    margin: .5rem;
+}
+.text-start{
+    display: flex;
+    margin: .5rem;
+}
+.i-name{
+    margin-left: .8rem;
+    color: #5ba4a4;
+    font-size: 1rem;
+
+}
+.i-new{
+    margin-left: .8rem;
+    color: #fff;
+}
+.i-new span{
+    background-color: #5ba4a4;
+    padding: 0.5rem 0.4rem 0.2rem;
+    height:1rem;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: .8rem;
+} 
+.i-fea{
+    margin-left: .8rem;
+}
+.i-fea span{
+    background-color:hsl(180, 14%, 20%);
+    padding: 0.5rem 0.4rem 0.2rem;
+    height:1rem;
+    justify-content: center;
+    color: #fff;
+    border-radius: 20px;
+    font-size: .8rem;
+}
+.text-med{
+    margin: .4rem;
+}
+.i-pos{
+    margin-left: .8rem;
+    font-size: 1.2rem;
+}
+.i-pos:hover{
+color: #5ba4a4;
+}
+.i{
+    margin-left: .9rem;
+    color:hsl(180, 8%, 52%)
+}
+.text-end span{
+    font-size: 2rem;
+    margin-top: -15px;
+
+}
+
+
+.main-filter{
+    display: flex;
+    margin-top: 1rem;
+
+}
+.main-filter .btn{
+    border: none;
+    padding: 8px 8px;
+    width: 30%;
+    margin:.5rem;
+    height: 1rem;
+    color: #5ba4a4;
+    background-color: hsl(180, 52%, 96%);
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.main-filter .btn:hover{
+    color:#fff;
+    background-color:  #5ba4a4;
+}
+
+/**/
+.header-contain{
+    width:70%;
+    margin-top: -1.5rem;
+    position: relative;
+    margin-left: 15%;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 1rem 1.2rem 1.6rem 0 #d7e9ec;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.filteritem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-contain .clear{
+    padding:.8rem;
+    position: static 
+}
+.clear p{
+    width:3.5rem;
+    text-align: center;
+    color:hsl(180, 8%, 52%);
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+.clear p:hover{
+    color:#5ba4a4;
+    border-bottom: 1px solid;
+}
+.show{
+    display: flex;
+    text-align: center;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    padding: 1rem;
+}
+.show .spans{
+    border: none;
+    width:1.4rem;
+    height: 1.6rem;
+    border-radius: 2px;
+    background-color: #5ba4a4;
+    color: #fff;
+    justify-content: center;
+    padding:.2rem;
+    cursor: pointer;
+}
+.show .spans .icon{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-top: .2rem;
+}
+
+.show .spans:hover{
+    background-color:hsl(180, 14%, 20%);
+}
+.show-btn{
+    border: none;
+    padding: 7px 5px;
+    width:4rem;
+    height: 1.1rem;
+    color: #5ba4a4;
+    background-color: hsl(180, 52%, 96%);
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media  (max-width: 750px){
+    .Header{
+        height: 8rem;
+    }
+    .Header img{
+        display: block;
+        height: 8rem;
+    }
+    .ShowJobs{
+        margin:1rem;
+        margin-top:3rem;
+    }
+    .show-data{
+        padding:1rem;
+        margin:1rem;
+        width:80%;
+        margin-left:1%;
+        display: grid;
+        border-radius: 10px;
+    }
+    .main{
+        display:grid;
+        width: 100%;
+    }
+    .main .logo{
+        margin-right:0rem;
+    }
+    .main .img-logo{
+        width:3rem;
+        height:3rem;
+        margin-top: -2.5rem;
+    }
+    .text-end .i{
+        margin-left: .1rem;
+        padding-left: .2rem;
+
+    }
+    .main-filter{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+        border-top: 1px solid;
+        border-color: hsl(180, 8%, 52%);
+    }
+    .main-filter .btn{
+        padding: 6px 5px;
+        width: 25%;
+        margin:.2rem;
+        margin-top: .5rem;
+        height: 1rem;
+        color: #5ba4a4;
+        background-color: hsl(180, 52%, 96%);
+        border-radius: 3px;
+        font-weight: 600;
+        cursor: pointer;
+    
+    }
+    .text-med{
+    margin: .4rem;
+}
+.i-pos{
+    margin-left: .8rem;
+    font-size: 1rem;
+}
+/**/
+.header-contain{
+    width:95%;
+    margin-left:3%;
+}
+.filteritem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clear p{
+    width:3rem;
+    font-size: .9rem;
+}
+.show{
+    margin:.5rem;
+    margin-top:.5rem;
+    padding:.2rem;
+}
+.show .spans{
+    width:1.2rem;
+    height: 1.5rem;
+}
+.show-btn{
+    border: none;
+    padding: 7px 4px;
+    width:4rem;
+}
+}
