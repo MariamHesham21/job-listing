@@ -4,6 +4,7 @@ import  {useState,useEffect} from "react";
 import data from './data.json'
 
 function App() {
+  
   const [filterData,setFilterData] =useState([])
   const[filters,setFilters]=useState([])
 
@@ -23,6 +24,7 @@ function App() {
       setFilters(data)
     }
   }
+
   useEffect(
     // eslint-disable-next-line react-hooks/exhaustive-deps
     ()=>{modiData()},[filterData]
@@ -35,7 +37,7 @@ function App() {
   }
 
   const DeletFilter =(i)=>{
-    const newKey=filterData.filter(key =>key !== i)
+    const newKey=filterData.filter(key =>key.id !== i)
     setFilterData(newKey)
   }
   
