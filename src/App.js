@@ -37,7 +37,7 @@ function App() {
   }
 
   const DeletFilter =(i)=>{
-    const newKey=filterData.filter(key =>key.id !== i)
+    const newKey=filterData.filter(key =>key !== i)
     setFilterData(newKey)
   }
   
